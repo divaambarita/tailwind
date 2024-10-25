@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restoran Dipa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen bg-gray-100">
+
+  <header class="bg-gradient-to-r from-red-500 to-orange-400 p-4">
+    <nav>
+      <ul class="flex justify-around text-white font-bold">
+        <li><a href="#home" class="hover:text-yellow-300">Beranda</a></li>
+        <li><a href="#about" class="hover:text-yellow-300">Tentang Kami</a></li>
+        <li><a href="#menu" class="hover:text-yellow-300">Menu</a></li>
+        <li><a href="#reservasi" class="hover:text-yellow-300">Reservasi</a></li>
+        <li><a href="#kontak" class="hover:text-yellow-300">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container mx-auto flex-grow grid grid-cols-1 md:grid-cols-4 gap-6 p-6">
+
+    <section class="bg-white rounded-lg shadow-md p-6 md:col-span-3">
+      <h1 class="text-4xl text-red-500 font-bold mb-4">Selamat Datang di Restoran Dipa</h1>
+      <p class="text-gray-600 mb-6">Temukan petualangan kuliner yang menggugah selera dengan hidangan kami yang segar dan berwarna. Setiap hidangan dibuat dengan bahan terbaik dan penuh cinta untuk memberikan pengalaman yang tak terlupakan.</p>
+      <a href="#reservasi" class="inline-block bg-orange-400 text-white py-2 px-6 rounded-full font-bold hover:bg-red-500 transition-colors duration-300">Pesan Meja Sekarang</a>
+    </section>
+
+    <aside class="bg-orange-100 rounded-lg p-6 text-gray-700 md:col-span-1">
+      <h2 class="text-red-500 text-2xl font-bold mb-4">Promo Mingguan</h2>
+      <p class="mb-4">Nikmati promo spesial setiap minggunya!</p>
+      <ul class="list-disc pl-4 space-y-2">
+        <li><strong>Senin:</strong> Diskon 20% untuk hidangan pembuka</li>
+        <li><strong>Selasa:</strong> Malam Taco</li>
+        <li><strong>Rabu:</strong> Pesta Pasta</li>
+        <li><strong>Kamis:</strong> Gratis Dessert dengan Menu Utama</li>
+        <li><strong>Jumat:</strong> Happy Hour Minuman</li>
+      </ul>
+    </aside>
+
+  </main>
+
+  <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
+    <div class="space-x-4 mb-2">
+      <a href="#privasi" class="hover:text-yellow-400 font-semibold">Kebijakan Privasi</a>
+      <a href="#syarat" class="hover:text-yellow-400 font-semibold">Syarat & Ketentuan</a>
+      <a href="#kontak" class="hover:text-yellow-400 font-semibold">Hubungi Kami</a>
+    </div>
+    <p class="text-sm">&copy; 2024 Restoran Dipa. Makan dengan Cinta!</p>
+  </footer>
+
+</body>
+</html>
